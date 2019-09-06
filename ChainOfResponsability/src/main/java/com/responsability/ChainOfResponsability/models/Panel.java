@@ -1,8 +1,5 @@
 package com.responsability.ChainOfResponsability.models;
 
-import lombok.Data;
-
-@Data
 public class Panel extends Component {
 
 	private String title;
