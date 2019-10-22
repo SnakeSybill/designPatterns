@@ -1,5 +1,6 @@
 package classes;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +11,8 @@ public class MainApplication {
 		
 		Caixa caixaPrincipal = montaArvore();
 		double valorFinal = caixaPrincipal.calculaValor();
-		System.out.println(valorFinal);
+		DecimalFormat df = new DecimalFormat("####.00");
+		System.out.println(String.format("Valor total da caixa: %s", df.format(valorFinal)));
 	}
 	
 	/*
