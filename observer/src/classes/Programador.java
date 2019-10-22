@@ -8,7 +8,7 @@ import interfaces.EventListener;
 public class Programador implements EventListener {
 
 	private String nome;
-	
+
 	public void atualiza(Cafe dados, String tipoEvento) throws InterruptedException {
 		if (Eventos.ACABOU_CAFE.getDescricao().equals(tipoEvento)) {
 			dados.setFazendoCafe(true);

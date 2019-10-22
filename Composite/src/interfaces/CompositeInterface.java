@@ -6,5 +6,5 @@ package interfaces;
 public interface CompositeInterface {
 
 	public double calculaValor();
-	
+
 }

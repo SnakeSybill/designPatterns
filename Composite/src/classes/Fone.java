@@ -5,8 +5,8 @@ package classes;
  */
 public class Fone extends Item {
 
-	private static double VALOR_FONE = 100.0; 
-	
+	private static double VALOR_FONE = 100.0;
+
 	public Fone() {
 		super.valor = VALOR_FONE;
 	}

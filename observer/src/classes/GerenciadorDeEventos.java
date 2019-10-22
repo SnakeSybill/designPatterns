@@ -19,7 +19,7 @@ public class GerenciadorDeEventos {
 
 	public void notify(String tipoEvento, Cafe cafe) throws InterruptedException {
 		for (Map.Entry<String, EventListener> entry : listeners.entrySet()) {
-			if(tipoEvento.contentEquals(entry.getKey()))
+			if (tipoEvento.contentEquals(entry.getKey()))
 				entry.getValue().atualiza(cafe, tipoEvento);
 		}
 	}

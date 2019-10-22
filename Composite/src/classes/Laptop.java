@@ -10,7 +10,7 @@ public class Laptop extends Item {
 	public Laptop() {
 		super.valor = VALOR_LAPTOP;
 	}
-	
+
 	public double calculaValor() {
 		return super.valor;
 	}

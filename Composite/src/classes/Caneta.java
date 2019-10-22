@@ -10,7 +10,7 @@ public class Caneta extends Item {
 	public Caneta() {
 		super.valor = VALOR_CANETA;
 	}
-	
+
 	public double calculaValor() {
 		return super.valor;
 	}
