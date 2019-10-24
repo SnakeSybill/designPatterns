@@ -17,9 +17,8 @@ public class Caixa extends Item {
 			for (Item item : itens) {
 				super.valor += item.calculaValor();
 			}
-			return super.valor;
-		} else
-			return VALOR_CAIXA;
+		} 
+		return super.valor;
 	}
 
 	public Caixa() {
