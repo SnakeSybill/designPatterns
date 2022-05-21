@@ -1,11 +1,22 @@
+package duck;
+
+import behavior.FlyBehavior;
+import behavior.impl.DefaultFlyBehavior;
+
 public abstract class Duck {
-    
-    public void quack(){
-        System.out.println("Default quack.");
+
+    private FlyBehavior flyBehavior;
+
+    public Duck() {
+        flyBehavior = new DefaultFlyBehavior();
     }
 
-    public void fly(){
-        System.out.println("Default fly.");
+    public void performFly() {
+        flyBehavior.fly();
+    }
+
+    public void quack() {
+        System.out.println("Default quack.");
     }
 
     public abstract void display();

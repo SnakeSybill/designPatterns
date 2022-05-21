@@ -1,16 +1,20 @@
+import duck.BlackDuck;
+import duck.Duck;
+import duck.WhiteDuck;
+
 public class StrategyTest {
-    public static void main(String... args){
+    public static void main(String... args) {
         Duck blackDuck = new BlackDuck();
         Duck whiteDuck = new WhiteDuck();
 
         blackDuck.display();
-        blackDuck.fly();
+        blackDuck.performFly();
         blackDuck.quack();
-        
+
         System.out.println();
-        
+
         whiteDuck.display();
-        whiteDuck.fly();
+        whiteDuck.performFly();
         whiteDuck.quack();
     }
 }
