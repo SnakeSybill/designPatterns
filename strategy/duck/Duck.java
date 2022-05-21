@@ -15,6 +15,14 @@ public abstract class Duck {
         quackBehavior = new DefaultQuackBehavior();
     }
 
+    public void setFlyBehavior(FlyBehavior newFlyBehavior) {
+        flyBehavior = newFlyBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior newQuackBehavior) {
+        quackBehavior = newQuackBehavior;
+    }
+
     public void performFly() {
         flyBehavior.fly();
     }
