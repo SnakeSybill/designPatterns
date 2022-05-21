@@ -9,12 +9,12 @@ public class StrategyTest {
 
         blackDuck.display();
         blackDuck.performFly();
-        blackDuck.quack();
+        blackDuck.performQuack();
 
         System.out.println();
 
         whiteDuck.display();
         whiteDuck.performFly();
-        whiteDuck.quack();
+        whiteDuck.performQuack();
     }
 }
