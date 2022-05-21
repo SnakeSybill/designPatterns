@@ -1,0 +1,3 @@
+# Strategy
+
+(Add infor here)
